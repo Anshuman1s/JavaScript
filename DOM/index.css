@@ -1,0 +1,16 @@
+
+html,body{
+    height: 100%;
+    width: 100;
+}
+.bulb{
+   height: 300px;
+   width: 300px;
+    background-color: black;
+    border-radius: 50%;
+}
+button{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}

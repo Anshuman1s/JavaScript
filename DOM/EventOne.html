@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML events</title>
+</head>
+<body>
+     
+</body>
+<script>
+    //JavaScript execute the code Sequentially
+    /*
+     document.getElementById('id_name').onclick = function(){
+        alert("Owl_image")
+     }
+     */
+    document.getElementById('owl').addEventListener('click',function(e){
+        alert('owl clicked again')
+
+    },false) //eventBubbling --> false
+    //eventBubbling can be stop using using e.stopPropagation
+    //capturing ---> true
+
+    //attachEvent()
+
+    //what i have to study :- type,timestamp,defaultPreventes
+    //target , toElement ,srcElement ,CurrentTarget
+    //clientX , clientY , screenX , screenY
+    //altKey ,ctriKey,ShiftKey ,keyCode
+    
+</script>
+</html>
