@@ -14,6 +14,6 @@
 })(" 1200");
 //This is named IIFE
 ( function naam(){
-    console.log("Anshuman shukla is the author of this code");
+    console.log("Anshuman shukla has written this code");
 })
 ();
